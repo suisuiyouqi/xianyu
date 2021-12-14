@@ -1,0 +1,7 @@
+# -Denv=dev -Dapollo.cluster=DEFAULT -Dserver.port=53050
+app:
+  id: consumer-service
+spring:
+    application:
+      name: consumer-service
+

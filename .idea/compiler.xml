@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xianyu-transaction" />
+        <module name="xianyu-content-search" />
+        <module name="xianyu-gateway" />
+        <module name="xianyu-account" />
+        <module name="xianyu-discover" />
+        <module name="xianyu-common" />
+        <module name="xianyu-consummer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="xianyu-api" target="1.8" />
+      <module name="xianyu-entity" target="1.8" />
+      <module name="xianyu-goods" target="1.8" />
+      <module name="xianyu-MapSDK" target="1.8" />
+      <module name="xianyu-ssm" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="xianyu" options="" />
+      <module name="xianyu-MapSDK" options="-parameters" />
+      <module name="xianyu-account" options="-parameters" />
+      <module name="xianyu-api" options="-parameters" />
+      <module name="xianyu-common" options="-parameters" />
+      <module name="xianyu-consummer" options="-parameters" />
+      <module name="xianyu-content-search" options="-parameters" />
+      <module name="xianyu-discover" options="-parameters" />
+      <module name="xianyu-entity" options="-parameters" />
+      <module name="xianyu-gateway" options="-parameters" />
+      <module name="xianyu-ssm" options="-parameters" />
+      <module name="xianyu-transaction" options="-parameters" />
+    </option>
+  </component>
+</project>

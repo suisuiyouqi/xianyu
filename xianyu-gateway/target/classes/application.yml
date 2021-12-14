@@ -1,0 +1,13 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: xianyu-gateway
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: http://localhost:53000/eureka
+
+logging:
+  config: classpath:log4j2-dev.xml
